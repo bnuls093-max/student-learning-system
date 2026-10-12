@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туынды</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page forum-page">
+
+  <button id="openSidebar" class="sidebar-open" type="button">☰</button>
+
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <span>Жеке оқу жүйесі</span>
+      <button id="closeSidebar" class="sidebar-close" type="button">✕</button>
+    </div>
+    <nav class="sidebar-menu">
+      <a href="main.html" class="active">Жалпы бөлім</a>
+      <a href="cabinet.html">Жеке кабинет</a>
+      <a href="#" id="logoutBtn">Шығу</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <h1 class="forum-title">Туынды</h1>
+
+    <a href="analysis.html" class="back-link">‹ Математикалық анализ</a>
+
+    <div class="lecture">
+      <h2>1. Туындының анықтамасы</h2>
+      <p>Функцияның өсімшесінің аргумент өсімшесіне қатынасының шегі туынды деп аталады. Геометриялық мағынасы: график нүктесіне жүргізілген жанаманың бұрыштық коэффициенті.</p>
+      <div class="formula">f′(x) = lim [f(x + Δx) − f(x)] / Δx   (Δx → 0)</div>
+
+      <h2>2. Дифференциалдау ережелері</h2>
+      <p>Негізгі туындылар кестесі:</p>
+      <div class="formula">(C)′ = 0
+(xⁿ)′ = n · xⁿ⁻¹
+(sin x)′ = cos x
+(cos x)′ = −sin x
+(eˣ)′ = eˣ
+(aˣ)′ = aˣ · ln a
+(ln x)′ = 1 / x</div>
+      <p>Амалдар ережелері:</p>
+      <div class="formula">(u ± v)′ = u′ ± v′
+(u · v)′ = u′v + uv′
+(u / v)′ = (u′v − uv′) / v²
+(f(g(x)))′ = f′(g(x)) · g′(x)   (күрделі функция)</div>
+
+      <h2>3. Туындының қолданылуы: экстремум</h2>
+      <p>Егер f′(x) &gt; 0 болса, функция өседі, ал f′(x) &lt; 0 болса, кемиді. Экстремум нүктесінде f′(x₀) = 0 болады, ал туынды таңбасы өзгереді: «+» таңбадан «−» таңбаға өтсе, максимум, керісінше болса, минимум.</p>
+      <p>Мысал: f(x) = x² − 4x + 3 функциясы үшін f′(x) = 2x − 4 = 0 теңдеуінен x = 2. Туынды таңбасы «−» таңбадан «+» таңбаға өтеді, демек x = 2 минимум нүктесі, ал f(2) = −1.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
