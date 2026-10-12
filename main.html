@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Жалпы бөлім</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="app-page forum-page">
+
+  <button id="openSidebar" class="sidebar-open" type="button">☰</button>
+
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <span>Жеке оқу жүйесі</span>
+      <button id="closeSidebar" class="sidebar-close" type="button">✕</button>
+    </div>
+    <nav class="sidebar-menu">
+      <a href="main.html" class="active">Жалпы бөлім</a>
+      <a href="cabinet.html">Жеке кабинет</a>
+      <a href="#" id="logoutBtn">Шығу</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+    <h1 class="forum-title">Форумдар тізімі</h1>
+
+    <button type="button" class="btn-create">✎ ТАҚЫРЫП ҚҰРУ...</button>
+
+    <!-- ===== 1-БӨЛІМ: Негізгі бөлім ===== -->
+    <div class="forum-section">
+      <div class="forum-section-header">
+        <span>Негізгі бөлім</span>
+        <span class="chevron">▲</span>
+      </div>
+
+      <div>
+        <a href="news.html" class="forum-row">
+          <div class="forum-icon">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+              <path d="M4 4h16v12H9l-5 4z"/>
+              <path d="M8 8h8M8 12h5"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Жаңалықтар және ақпарат</div>
+            <div class="forum-stats">
+              <span>Тақырыптар <b>4</b></span>
+              <span>Хабарламалар <b>4</b></span>
+            </div>
+            <div class="forum-last">Жаңарту: форум бөлімі қосылды · Админ · 02.10.2026</div>
+          </div>
+        </a>
+
+        <a href="suggestions.html" class="forum-row">
+          <div class="forum-icon">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+              <path d="M4 4h16v12H9l-5 4z"/>
+              <path d="M8 8h8M8 12h5"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Жақсарту бойынша ұсыныстар</div>
+            <div class="forum-stats">
+              <span>Тақырыптар <b>5</b></span>
+              <span>Хабарламалар <b>5</b></span>
+            </div>
+            <div class="forum-last">Құпиясөзді қалпына келтіру функциясы · Студент · 07.10.2026</div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank" class="forum-row link-row">
+          <div class="forum-icon muted">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/>
+              <path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Discord-тағы ресми қауымдастық</div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank" class="forum-row link-row">
+          <div class="forum-icon muted">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/>
+              <path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">ВКонтакте-дегі ресми қауымдастық</div>
+          </div>
+        </a>
+
+        <a href="#" target="_blank" class="forum-row link-row">
+          <div class="forum-icon muted">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/>
+              <path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Ресми Telegram-арна</div>
+          </div>
+        </a>
+      </div>   <!-- осы жерде 1-бөлімнің ішкі блогы жабылады -->
+    </div>     <!-- осы жерде 1-бөлім толық аяқталады -->
+
+    <!-- ===== ЖАҢА БӨЛІМ: 2-БӨЛІМ осы жерден басталады ===== -->
+    <div class="forum-section">
+      <div class="forum-section-header">
+        <span>Ойын серверлері</span>
+        <span class="chevron">▲</span>
+      </div>
+
+      <div>
+        <a href="#" class="forum-row">
+          <div class="forum-icon">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+              <path d="M4 4h16v12H9l-5 4z"/>
+              <path d="M8 8h8M8 12h5"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Сервер ережелері</div>
+            <div class="forum-stats">
+              <span>Тақырыптар <b>0</b></span>
+              <span>Хабарламалар <b>0</b></span>
+            </div>
+            <div class="forum-last">Әзірге тақырып жоқ</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- ===== ЖАҢА БӨЛІМ осында аяқталады ===== -->
+<!-- ===== ОҚУ МАТЕРИАЛДАРЫ БӨЛІМІ ===== -->
+    <div class="forum-section">
+      <div class="forum-section-header">
+        <span>Оқу материалдары</span>
+        <span class="chevron">▲</span>
+      </div>
+
+      <div>
+        <a href="math.html" class="forum-row">
+          <div class="forum-icon">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+              <path d="M4 4h16v12H9l-5 4z"/>
+              <path d="M8 8h8M8 12h5"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Математика</div>
+            <div class="forum-stats">
+              <span>Тақырыптар <b>8</b></span>
+              <span>Хабарламалар <b>8</b></span>
+            </div>
+            <div class="forum-last">Сандық әдістер · Админ · 07.10.2026</div>
+          </div>
+        </a>
+        <a href="math.html" class="forum-row">
+          ...Математика жолы (өзгермейді)...
+        </a>
+
+        <!-- ===== ФИЗИКА: осы жерден бастап қойыңыз ===== -->
+        <a href="physics.html" class="forum-row">
+          <div class="forum-icon">
+            <svg viewBox="0 0 24 24" width="46" height="46" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+              <path d="M4 4h16v12H9l-5 4z"/>
+              <path d="M8 8h8M8 12h5"/>
+            </svg>
+          </div>
+          <div class="forum-info">
+            <div class="forum-name">Физика</div>
+            <div class="forum-stats">
+              <span>Тақырыптар <b>6</b></span>
+              <span>Хабарламалар <b>6</b></span>
+            </div>
+            <div class="forum-last">Тербелістер және толқындар · Админ · 07.10.2026</div>
+          </div>
+        </a>
+        <!-- ===== ФИЗИКА осында аяқталады ===== -->
+
+      </div>     <!-- бұл бұрыннан бар: бөлімнің ішкі блогы -->
+    </div>       <!-- бұл бұрыннан бар: бөлімнің соңы -->
+  </main>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
